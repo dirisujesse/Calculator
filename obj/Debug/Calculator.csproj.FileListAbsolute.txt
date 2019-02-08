@@ -13,3 +13,4 @@ C:\Users\elsupridad\source\repos\Calculator\Calculator\obj\Debug\Calculator.cspr
 C:\Users\elsupridad\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\elsupridad\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\elsupridad\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\elsupridad\source\repos\Calculator\Calculator\obj\Debug\App.baml
