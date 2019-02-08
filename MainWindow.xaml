@@ -22,24 +22,24 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Label x:Name="resultLabel" Content="0" Grid.ColumnSpan="4" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="60" />
-        <Button Click="AcBtn_Click" x:Name="acBtn" Content="AC" Grid.Column="0" Grid.Row="1" Margin="5" />
-        <Button Click="PlusMinusBtn_Click" x:Name="plusMinusBtn" Content="+/-" Grid.Column="1" Grid.Row="1" Margin="5" />
-        <Button Click="PercBtn_Click" x:Name="percBtn" Content="%" Grid.Column="2" Grid.Row="1" Margin="5" />
-        <Button Click="DivideBtn_Click" x:Name="divideBtn" Content="/" Grid.Column="3" Grid.Row="1" Margin="5" />
-        <Button Click="SevenBtn_Click" x:Name="sevenBtn" Content="7" Grid.Column="0" Grid.Row="2" Margin="5" />
-        <Button Click="EightBtn_Click" x:Name="eightBtn" Content="8" Grid.Column="1" Grid.Row="2" Margin="5" />
-        <Button Click="NineBtn_Click" x:Name="nineBtn" Content="9" Grid.Column="2" Grid.Row="2" Margin="5" />
-        <Button Click="TimesBtn_Click" x:Name="timesBtn" Content="*" Grid.Column="3" Grid.Row="2" Margin="5" />
-        <Button Click="FourBtn_Click" x:Name="fourBtn" Content="4" Grid.Column="0" Grid.Row="3" Margin="5" />
-        <Button Click="FiveBtn_Click" x:Name="fiveBtn" Content="5" Grid.Column="1" Grid.Row="3" Margin="5" />
-        <Button Click="SixBtn_Click" x:Name="sixBtn" Content="6" Grid.Column="2" Grid.Row="3" Margin="5" />
-        <Button Click="MinusBtn_Click" x:Name="minusBtn" Content="-" Grid.Column="3" Grid.Row="3" Margin="5" />
-        <Button Click="OneBtn_Click" x:Name="oneBtn" Content="1" Grid.Column="0" Grid.Row="4" Margin="5" />
-        <Button Click="TwoBtn_Click" x:Name="twoBtn" Content="2" Grid.Column="1" Grid.Row="4" Margin="5" />
-        <Button Click="ThreeBtn_Click" x:Name="threeBtn" Content="3" Grid.Column="2" Grid.Row="4" Margin="5" />
-        <Button Click="PlusBtn_Click" x:Name="plusBtn" Content="+" Grid.Column="3" Grid.Row="4" Margin="5" />
-        <Button Click="ZeroBtn_Click" x:Name="zeroBtn" Content="0" Grid.ColumnSpan="2" Grid.Row="5" Margin="5" />
-        <Button Click="DecimalBtn_Click" x:Name="decimalBtn" Content="." Grid.Column="2" Grid.Row="5" Margin="5" />
-        <Button Click="EqualBtn_Click" x:Name="equalBtn" Content="=" Grid.Column="3" Grid.Row="5" Margin="5" />
+        <Button Click="AcBtn_Click" Background="Crimson" x:Name="acBtn" Content="AC" Grid.Column="0" Grid.Row="1" Margin="5" />
+        <Button Click="PlusMinusBtn_Click" Background="{StaticResource SpecialColors}" x:Name="plusMinusBtn" Content="+/-" Grid.Column="1" Grid.Row="1" Margin="5" />
+        <Button Click="PercBtn_Click" Background="{StaticResource SpecialColors}" x:Name="percBtn" Content="%" Grid.Column="2" Grid.Row="1" Margin="5" />
+        <Button Click="DivideBtn_Click" Style="{StaticResource OpBtnStyle}" x:Name="divideBtn" Content="/" Grid.Column="3" Grid.Row="1" Margin="5" />
+        <Button Click="SevenBtn_Click" Background="{StaticResource NumColors}" x:Name="sevenBtn" Content="7" Grid.Column="0" Grid.Row="2" Margin="5" />
+        <Button Click="EightBtn_Click" Background="{StaticResource NumColors}" x:Name="eightBtn" Content="8" Grid.Column="1" Grid.Row="2" Margin="5" />
+        <Button Click="NineBtn_Click" Background="{StaticResource NumColors}" x:Name="nineBtn" Content="9" Grid.Column="2" Grid.Row="2" Margin="5" />
+        <Button Click="TimesBtn_Click" Style="{StaticResource OpBtnStyle}" x:Name="timesBtn" Content="*" Grid.Column="3" Grid.Row="2" Margin="5" />
+        <Button Click="FourBtn_Click" Background="{StaticResource NumColors}" x:Name="fourBtn" Content="4" Grid.Column="0" Grid.Row="3" Margin="5" />
+        <Button Click="FiveBtn_Click" Background="{StaticResource NumColors}" x:Name="fiveBtn" Content="5" Grid.Column="1" Grid.Row="3" Margin="5" />
+        <Button Click="SixBtn_Click" Background="{StaticResource NumColors}" x:Name="sixBtn" Content="6" Grid.Column="2" Grid.Row="3" Margin="5" />
+        <Button Click="MinusBtn_Click" Style="{StaticResource OpBtnStyle}" x:Name="minusBtn" Content="-" Grid.Column="3" Grid.Row="3" Margin="5" />
+        <Button Click="OneBtn_Click" Background="{StaticResource NumColors}" x:Name="oneBtn" Content="1" Grid.Column="0" Grid.Row="4" Margin="5" />
+        <Button Click="TwoBtn_Click" Background="{StaticResource NumColors}" x:Name="twoBtn" Content="2" Grid.Column="1" Grid.Row="4" Margin="5" />
+        <Button Click="ThreeBtn_Click" Background="{StaticResource NumColors}" x:Name="threeBtn" Content="3" Grid.Column="2" Grid.Row="4" Margin="5" />
+        <Button Click="PlusBtn_Click" Style="{StaticResource OpBtnStyle}" x:Name="plusBtn" Content="+" Grid.Column="3" Grid.Row="4" Margin="5" />
+        <Button Click="ZeroBtn_Click" Background="{StaticResource NumColors}" x:Name="zeroBtn" Content="0" Grid.ColumnSpan="2" Grid.Row="5" Margin="5" />
+        <Button Click="DecimalBtn_Click" Background="{StaticResource NumColors}" x:Name="decimalBtn" Content="." Grid.Column="2" Grid.Row="5" Margin="5" />
+        <Button Click="EqualBtn_Click" Style="{StaticResource OpBtnStyle}" x:Name="equalBtn" Content="=" Grid.Column="3" Grid.Row="5" Margin="5" />
     </Grid>
 </Window>
